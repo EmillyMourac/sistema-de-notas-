@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf3ff;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #1769aa;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 800px;
+    margin: auto;
+}
+
+fieldset {
+    background-color: white;
+    border: 2px solid #4a90e2;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+legend {
+    background-color: #1769aa;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+label {
+    color: #174a7c;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="nome"],
+input[type="idade"],
+input[type="nota1"],
+input[type="nota2"],
+input[type="nota3"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #9fc5e8;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: #f8fbff;
+}
+
+input[type="text"],
+input[type="nome"],
+input[type="idade"],
+input[type="nota1"],
+input[type="nota2"],
+input[type="nota3"],
+select:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #1769aa;
+    background-color: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+p {
+    color: #174a7c;
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #1769aa;
+    margin-right: 5px;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #0d4f82;
+}
+
+button[type="reset"] {
+    background-color: #e74c3c;
+    
+}
+
+label {
+    color: #174a7c;
+    font-weight: bold;
+}
+
+input[type="Situação"],
+input[type="ExibirN"],
+input[type="ExibirI"],
+input[type="ExibirN1"],
+input[type="ExibirN2"],
+input[type="ExibirN3"],
+select,
+textarea {
+    outline: none;
+    border: 2px solid #1769aa;
+    background-color: white;
+}
+
+.aprovado{
+    color:chartreuse 
+}
+ 
+.reprovado{
+    color: red
+}
+
+.recuperacao{
+    color: yellow
+}
